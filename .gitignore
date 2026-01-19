@@ -1,3 +1,32 @@
+# Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+*.class
+
+# Virtual environments
 .env
+.venv/
+env/
+venv/
+
+# Logs
+*.log
+
+# Database / Migrations
+*.sqlite3
+migrations/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
