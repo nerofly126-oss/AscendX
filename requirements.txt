@@ -1,0 +1,28 @@
+# Project requirements for fastapi-auth
+# Core
+fastapi
+uvicorn[standard]
+
+# Database
+SQLAlchemy
+pymysql
+
+# Auth & Security
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Email (forgot password)
+fastapi-mail
+
+# OAuth (Google, Facebook, Apple login)
+authlib
+
+# Environment variables
+python-dotenv
+
+# Data validation
+pydantic
+
+# Notes
+# - No pinned versions included; add versions if you need reproducible installs.
+# - If you meant something else by "fix ts", please clarify and I will update this file.

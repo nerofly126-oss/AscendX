@@ -1,0 +1,23 @@
+# FastAPI + server
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+pymysql  # MySQL driver
+
+# Auth & Security
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Email (forgot password)
+fastapi-mail
+
+# OAuth (Google, Facebook, Apple login)
+authlib
+
+# Environment variables
+python-dotenv
+
+# Data validation
+pydantic
