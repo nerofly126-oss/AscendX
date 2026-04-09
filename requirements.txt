@@ -22,6 +22,7 @@ python-dotenv
 
 # Data validation
 pydantic
+pytest
 
 # Notes
 # - No pinned versions included; add versions if you need reproducible installs.
