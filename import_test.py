@@ -1,5 +1,9 @@
-import sys, pathlib, importlib, traceback
-sys.path.insert(0, str(pathlib.Path.cwd() / 'venv'))
+import importlib
+import pathlib
+import sys
+import traceback
+
+sys.path.insert(0, str(pathlib.Path.cwd() / "venv"))
 try:
     m = importlib.import_module('app.auth.routes')
     print('IMPORT_OK', m.__file__)
